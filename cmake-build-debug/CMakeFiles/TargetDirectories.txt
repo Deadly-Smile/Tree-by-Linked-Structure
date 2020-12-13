@@ -1,0 +1,3 @@
+C:/Users/Anik/Documents/Tree by doubly linked structure/Tree-by-Linked-Structure/cmake-build-debug/CMakeFiles/Tree_by_Linked_Structure.dir
+C:/Users/Anik/Documents/Tree by doubly linked structure/Tree-by-Linked-Structure/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Anik/Documents/Tree by doubly linked structure/Tree-by-Linked-Structure/cmake-build-debug/CMakeFiles/rebuild_cache.dir
