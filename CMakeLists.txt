@@ -3,4 +3,4 @@ project(Tree_by_Linked_Structure)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Tree_by_Linked_Structure main.cpp)
+add_executable(Tree_by_Linked_Structure main.cpp BinaryTree.cpp BinaryTree.h)
