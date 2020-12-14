@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Anik/Documents/Tree by doubly linked structure/Tree-by-Linked-Structure/BinaryTree.cpp">
+			<Option target="Tree_by_Linked_Structure"/>
+		</Unit>
+		<Unit filename="C:/Users/Anik/Documents/Tree by doubly linked structure/Tree-by-Linked-Structure/BinaryTree.h">
+			<Option target="Tree_by_Linked_Structure"/>
+		</Unit>
 		<Unit filename="C:/Users/Anik/Documents/Tree by doubly linked structure/Tree-by-Linked-Structure/main.cpp">
 			<Option target="Tree_by_Linked_Structure"/>
 		</Unit>

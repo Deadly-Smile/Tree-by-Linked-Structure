@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Tree_by_Linked_Structure.dir/BinaryTree.cpp.obj"
   "CMakeFiles/Tree_by_Linked_Structure.dir/main.cpp.obj"
   "Tree_by_Linked_Structure.exe"
   "Tree_by_Linked_Structure.exe.manifest"
