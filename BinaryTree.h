@@ -9,28 +9,45 @@ struct Node{
     Node *leftChild;
     Node *rightChild;
     int data;
+    explicit Node(int data){
+        this->data = data;
+        leftChild = nullptr;
+        rightChild = nullptr;
+    }
+
+    ~Node(){
+        leftChild = nullptr;
+        rightChild = nullptr;
+        delete leftChild;
+        delete rightChild;
+    }
 };
 
 class BinaryTree {
 private:
     Node *root;
     Node *current;
-    int level;
-    int totalNode;
+    int size;
 public:
     BinaryTree();
 
-    BinaryTree(int *start, int *end);
+    BinaryTree(int *start, const int *end);
 
     BinaryTree(BinaryTree const &object);
 
-    [[nodiscard]] int getLevel() const;
+    [[nodiscard]] int getSize() const;
 
-    [[nodiscard]] int getTotalNode() const;
+    [[nodiscard]] int getLevel() const;
 
     int currentData();
 
     int rootData();
+
+    void insert(int data);
+
+    void remove(int data);
+
+    [[nodiscard]] int next() const;
 
     ~BinaryTree();
 
